@@ -153,6 +153,38 @@ const SignUp = () => {
                     value={phoneNumber}
                   />
                 </div>
+                  <br />
+                  {/* for age gender and location */}
+                  <div className="form-group">
+                  <input
+                    type="number"
+                    className="form-control fw-bold"
+                    id="age"
+                    placeholder="Age"
+                    
+                  />
+
+                </div>
+                <br />
+                <div className="form-group">
+    <select className="form-control fw-medium" id="gender">
+        <option value="">Select Gender</option>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="other">others</option>
+
+    </select>
+</div>
+                <br />
+                <div className="form-group">
+                  <input
+                    type="text"
+                    className="form-control fw-bold"
+                    id="location"
+                    placeholder="Location"
+                    
+                  />
+                </div>
                 <br />
                 <div className="form-group2 d-flex">
                   <input

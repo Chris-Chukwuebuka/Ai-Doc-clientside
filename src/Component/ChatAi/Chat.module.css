@@ -76,7 +76,7 @@
   .messageText {
     padding: 5px 10px 5px 10px;
     border-radius: 0 20px;
-    background-color: #1877f2;
+    background-color: #1877f2 !important;
     color: white;
     max-width: 300px;
   }
@@ -177,9 +177,6 @@
     margin-bottom: 50px; */
   }
   .sidebar {
-    background: #1877f2;
-    height: 100vh;
-    color: #fff;
-    position: sticky;
-    top: 0;
+    height: 100%;
   }
+    

@@ -36,7 +36,7 @@ const ChatMedhubAi = () => {
   };
 
   return (
-    <div className="container-fluid mt-5 ">
+    <div className="container-fluid  " style={{marginTop:"5rem", height:"100vh"}}>
       <div className="row">
         {/* Sidebar */}
         <nav className="navbar navbar-expand-lg navbar-light-100">
@@ -50,11 +50,11 @@ const ChatMedhubAi = () => {
           <div
             className={`collapse navbar-collapse  ${sidebarOpen ? "show" : ""}`}
           >
-            <div className=" sidebar p-3 bg-dark mt-5  " style={{ marginTop: "6rem" }} >
+            <div className=" sidebar p-3   " style={{ marginTop: "6rem", height:"100vh" }} >
               <h2>Message History</h2>
               <ul className="list-group mt-5">
                 {messages.map((message, index) => (
-                  <li key={index} className="list-group-item" style={{marginTop:"3rem"}}>
+                  <li key={index} className="list-group-item fw-semibold" style={{marginTop:"5rem"}}>
                     {message}
                   </li>
                 ))}
@@ -71,7 +71,7 @@ const ChatMedhubAi = () => {
         >
           <div className="chat-window" id="chatWindow">
             {messages.map((message, index) => (
-              <div key={index} className="message">
+              <div key={index} className="message ms-5  bg-primary text-dark  fw-bold">
                 {message}
               </div>
             ))}
