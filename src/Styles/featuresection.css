@@ -1,0 +1,28 @@
+
+/* Feature section styling starts here */
+.feature-section {
+    margin-top: 100px;
+  }
+  .feature-intro {
+    color: #08426b;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .feature-card {
+    margin-bottom: 50px;
+    border-left: 5px solid var(--secondary-color);
+    padding-left: 20px;
+  }
+  .feature-img {
+    margin-bottom: 15px;
+  }
+  .feature-title {
+    color: #08426b;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  .feature-para {
+    color: #101010;
+    font-weight: 600;
+  }
+  

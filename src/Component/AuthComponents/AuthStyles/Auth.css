@@ -1,0 +1,97 @@
+.authImg img{
+    width: 350px;
+    height: 400px;
+}
+.card-container h1{
+    color: var(--main-color);
+}
+.card-container p{
+font-size: 1rem;
+font-weight: 500;
+;
+}
+.card-container{
+    margin-top: 8rem;
+}
+.close-holder{
+    display: flex;
+    position: relative;
+left: 70%;   
+} 
+.btn-close{
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+.forget-group a{
+    color: var(--main-color);
+}
+
+.forget-group a:hover{
+    color: var(--secondary-color);
+    text-transform: capitalize;
+border-bottom: 1px solid var(--secondary-color);
+}
+.form-group input{
+    width: 100%;
+}
+.form-group2 input{
+    width: 50rem;
+}
+.form-control input{
+    width: 100%;
+}
+.form-group2 button{
+   position: relative; 
+   margin: auto;
+   right: 15%;
+}
+.login-form button{
+    width: 40%;
+    margin: auto;
+height: 40px;
+border: none;
+border-radius: 30px;
+background-color: var(--main-color);
+color: white;
+font-size: 1rem;
+font-weight: 600;
+}
+
+.login-form button:hover{
+    background-color: var(--secondary-color);
+}
+.login-form button:active{
+    background-color: var(--main-color);
+}
+.btnForSignUp{
+    width: 40%;
+    margin: auto;
+    top: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.btnForSignUp:hover{
+    background-color: var(--secondary-color);
+}
+
+
+
+/* media querry for the image1
+ */
+@media screen and (max-width: 768px) {
+    .authImg img{
+        width: 250px;
+        height: 400px;
+    }
+    .card-container{
+        justify-content: center;
+        margin-top: 13rem;
+    }
+}
+

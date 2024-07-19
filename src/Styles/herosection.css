@@ -1,0 +1,118 @@
+/* Hero section styling starts here */
+.hero-section {
+    margin-top: 10rem;
+    height: 20vh;
+    width: 100%;
+  }
+  
+  .text-1 {
+    margin-top: 200px;
+    color: #08426b;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .text-2 {
+    margin-top: 30px;
+    color: #1ca1fe;
+    font-weight: 700;
+    font-size: 50px;
+  }
+  .hero-text p {
+    margin-top: 30px;
+    color: #101010;
+    font-weight: 600;
+  }
+  .hero-btn a {
+    background-color: #08426b;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 25px;
+  }
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    
+  
+  }
+  .hero-img img {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Hero section styling ends */
+  /* Media Queries */
+
+    @media screen and (min-width: 768px) {
+        .hero-section {
+        margin-top: 100px;
+        margin-bottom: 2rem;
+        }
+        .text-1 {
+        margin-top: 50px;
+        font-size: 30px;
+        }
+        .text-2 {
+        font-size: 30px;
+        }
+        .hero-text p {
+        font-size: 15px;
+        }
+        .hero-btn a {
+        padding: 10px 20px;
+        }
+    }
+    @media screen and (min-width: 400px) {
+        .hero-section {
+        margin-top: 100px;
+        }
+        .text-1 {
+        margin-top: 50px;
+        font-size: 30px;
+        }
+        .text-2 {
+        font-size: 30px;
+        }
+        .hero-text p {
+        font-size: 15px;
+        }
+        .hero-btn a {
+        padding: 10px 20px;
+        }
+        .hero-img {
+        width: 100%;
+        height: 100%;
+       margin: auto;
+
+        }
+        
+    }
+    @media screen and (min-width: 300px) {
+        .hero-section {
+        margin-bottom: 50rem;
+
+        }
+        .text-1 {
+        margin-top: 50px;
+        font-weight: 800;
+        font-size: 2rem;
+        }
+        .text-2 {
+        font-size: 25px;
+        font-weight: 600;
+        }
+        .hero-text p {
+        font-size: 15px;
+        }
+        .hero-btn a {
+        padding: 10px 20px;
+        }
+        .hero-img {
+        width: 100%;
+        height: 300px;
+        max-width: fit-content;
+        }
+        
+    }
+
+  /* Media Queries ends */

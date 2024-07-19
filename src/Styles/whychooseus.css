@@ -1,0 +1,61 @@
+/* why section styling starts here */
+.why-section {
+    margin-top: 50px;
+  }
+  .why-intro {
+    color: #1ca1fe;
+    font-weight: 700;
+    margin-bottom: 40px;
+  }
+  .why-card {
+    padding: 20px;
+    width: 80% !important;
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .why-card-title {
+    margin-top: 20px;
+    color: #fff !important;
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 30px !important;
+  }
+  .why-card-text {
+    color: #fff;
+    font-weight: 600;
+  }
+  .first {
+    background-color: #08426b !important;
+  }
+  .second {
+    background-color: #105e96 !important;
+  }
+  .third {
+    background-color: #333333 !important;
+  }
+  
+  /* Get started styling starts here */
+  .started-section {
+    margin-top: 100px;
+    background-color: #08426b;
+  }
+  .started-intro {
+    margin-top: 150px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .started-text {
+    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .started-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1ca1fe;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }

@@ -1,0 +1,213 @@
+/* Get started styling starts here */
+.started-section img{
+    width: 100%;
+    height: 100%;
+}
+
+.started-section {
+    background-color: #08426b;
+    width: 100%;
+    height: 130%;
+  }
+  .started-intro {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .started-text {
+    margin-top: 10px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .started-btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #1ca1fe;
+    padding: 10px 15px;
+    border-radius: 20px;
+  }
+  /* Get started styling ends here */
+
+  /* footer styling starts here */
+footer{
+    margin-top: 80px;
+    width: 100%;
+  }
+  footer h6{
+
+    text-align: center;
+    background-color: #08426b;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 20px;
+  }
+  /* media queries */
+  
+
+  @media screen and (max-width: 768px){
+    .started-section {
+        background-color: #08426b;
+        width: 100%;
+        height: 100%;
+      }
+      .started-intro {
+        margin-top: 10px;
+        color: #fff;
+        font-weight: 700;
+        font-size: 2rem;
+      }
+      .started-text {
+        margin-top: 10px;
+        color: #fff;
+        font-weight: 500;
+        font-size: 1rem;
+      }
+      .started-btn {
+        text-decoration: none;
+        color: #fff;
+        font-weight: 700;
+        background-color: #1ca1fe;
+        padding: 10px 15px;
+        border-radius: 20px;
+      }
+  }
+  .started-section img{
+    width: 100%;
+    height: 100%;
+  }
+  /* for 300px to 690px */
+  @media screen and (min-width: 300px) and (max-width: 690px){
+    .started-section {
+       display: none;
+  }
+
+  }
+
+
+
+/* contact us styling starts here */
+.contact-section {
+    margin-top: 10rem;
+    width: 100%;
+  }
+  .contact-div-holder {     
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13rem;
+  }
+  .contact-intro {
+    color: #08426b;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  .contact-text {
+    margin-top: 30px;
+    font-weight: 600;
+    color: #101010;
+    font-size: 18px;
+  }
+  .follow {
+    margin-top: 30px;
+    color: #101010;
+    font-weight: 600;
+  }
+  .contact-icon {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+  }
+  .twitter-icon {
+    text-decoration: none;
+    font-size: 30px;
+    color: #1ca1fe;
+  }
+  .fb-icon {
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .ig-icon{
+    text-decoration: none;
+    font-size: 30px;
+  }
+  .mail{
+    margin-top: 20px;
+    color: #101010 !important;
+    font-weight: 600;
+  }
+  .mail-icon{
+    color:#D62323;
+    font-size: 20px;
+  }
+  .contact-form{
+    margin-left:300px;
+  }
+  
+  .contact-form input[type = "text"], input[type = "email"], input[type = "number"]{
+    margin-bottom: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 0.7px solid #08426B80;
+    padding: 20px;
+  }
+  textarea{
+    width: 100%;
+    border-radius: 5px;
+    border: 0.7px solid #08426B80;
+    padding: 20px;
+    
+  }
+  ::placeholder{
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  .contact-btn{
+  
+    text-decoration: none;
+    background-color: #08426b;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 15px 30px;
+    border-radius: 10px;
+  }
+
+  /* contact us styling ends here */
+
+  /* media queries */
+  
+    @media screen and (max-width: 768px){
+        .contact-div-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10rem;
+        }
+        .contact-intro {
+        font-size: 2rem;
+        }
+        .contact-text {
+        font-size: 1rem;
+        }
+        .contact-form{
+        margin-left:0px;
+        }
+    }
+    /*responsiveness for 800px upwards */
+    @media screen and (min-width: 800px){
+.contact-div-holder{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+}
+    }
